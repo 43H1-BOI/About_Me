@@ -28,15 +28,12 @@ class CreateActivity : AppCompatActivity() {
             addName(it)
         }
 
+
         val designationB = findViewById<Button>(R.id.design_b)
 
         designationB.setOnClickListener {
             addDesignation(it)
         }
-
-
-
-
     }
 
     private fun addName(view : View){
