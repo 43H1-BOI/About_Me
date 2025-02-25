@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="my_name">Abhishek Yadav</string>
+    <string name="about_me">Hello, I\'m Abhishek Yadav, a student at the Institute of Professional Studies (IIPS), Devi Ahilya Vishwavidyalaya (DAVV) in Indore, Madhya Pradesh, India, pursuing a 5-year Integrated Master of Computer Applications (MCA) program.\nI have a strong interest in programming and software development, with proficiency in languages such as C++, Java, and Kotlin.
+        \n\nTo document and share my learning journey, I\'ve created several repositories on GitHub:
+        \n1. <b>CPP-Language</b>: A repository tracking my progress in learning C++.
+        \n2. <b>JavaByABHI</b>: This repository showcases my exploration of Java, covering topics from basics to advanced concepts.
+        \n3. <b>Dice_Roller</b>: A Kotlin-based application simulating a dice roll, reflecting my interest in mobile app development.
+        \n\nBeyond academics, I engage with the broader tech community through platforms like LeetCode, where I tackle coding challenges to enhance my problem-solving skills. In my leisure time, I enjoy gaming and connect with fellow enthusiasts on platforms such as Steam and Discord. Feel free to explore my projects on GitHub or connect with me on LinkedIn.</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="avatar">Avatar of Abhishek Yadav</string>
+    <string name="github">Github</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="create_your_own">Create Your Own About Me</string>
+    <string name="start_app">Start App</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_your_designation">Enter Your Designation</string>
+    <string name="enter">Enter</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/small_sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/app_name"
+        style="@style/heading1_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/small_sp"
+        android:contentDescription="@string/avatar"
+        app:srcCompat="@drawable/pfp"
+        tools:srcCompat="@drawable/pfp" />
+
+    <TextView
+        android:id="@+id/my_name"
+        style="@style/heading2_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name" />
+
+    <TextView
+        android:id="@+id/my_designation"
+        style="@style/heading3_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/small_sp"
+        android:text="@string/android_developer" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200sp">
+
+        <TextView
+            android:id="@+id/my_about_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/archivo"
+            android:text="@string/about_me" />
+
+    </ScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/linkedin_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_sp"
+            android:layout_marginEnd="@dimen/small_sp"
+            android:layout_weight="1"
+            android:text="@string/linkedin" />
+
+        <Button
+            android:id="@+id/github_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ex_small_sp"
+            android:layout_marginEnd="@dimen/ex_small_sp"
+            android:layout_weight="1"
+            android:text="@string/github" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/create_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ex_small_sp"
+        android:layout_marginRight="@dimen/ex_small_sp"
+        android:text="@string/create_your_own" />
+
+
+</LinearLayout>
